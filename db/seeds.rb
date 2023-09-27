@@ -7,17 +7,26 @@
 #   Character.create(name: "Luke", movie: movies.first)
 # Seed the RottenPotatoes DB with some movies.
 more_movies = [
-  {:title => 'My Neighbor Totoro', :rating => 'G',
-    :release_date => '16-Apr-1988'},
-  {:title => 'Green Book', :rating => 'PG-13',
-    :release_date => '16-Nov-2018'},
-  {:title => 'Parasite', :rating => 'R',
-    :release_date => '30-May-2019'},
-  {:title => 'Nomadland', :rating => 'R',
-    :release_date => '19-Feb-2021'},
-  {:title => 'CODA', :rating => 'PG-13',
-    :release_date => '13-Aug-2021'}
-]
+    {:title => 'My Neighbor Totoro', :rating => 'G',
+        :release_date => '16-Apr-1988'},
+    {:title => 'Green Book', :rating => 'PG-13',
+        :release_date => '16-Nov-2018'},
+    {:title => 'Parasite', :rating => 'R',
+        :release_date => '30-May-2019'},
+    {:title => 'Nomadland', :rating => 'R',
+        :release_date => '19-Feb-2021'},
+    {:title => 'CODA', :rating => 'PG-13',
+        :release_date => '13-Aug-2021'},
+    {:title => 'Godfather 1', :rating => 'PG-13',
+        :release_date => '13-Sep-1972'},
+    {:title => 'Godfather 2', :rating => 'PG-13',
+        :release_date => '13-Sep-1974'},
+    {:title => 'Godfather 3 : Micheal Corleone', :rating => 'PG-13',
+        :release_date => '13-Sep-2003'},
+    {:title => 'Interstellar', :rating => 'PG-13',
+        :release_date => '13-Aug-2016'}
+
+    ]
 
 more_movies.each do |movie|
   Movie.create!(movie)
