@@ -21,7 +21,7 @@ more_movies = [
         :release_date => '13-Sep-1972'},
     {:title => 'Godfather 2', :rating => 'PG-13',
         :release_date => '13-Sep-1974'},
-    {:title => 'Godfather 3 : Micheal Corleone', :rating => 'PG-13',
+    {:title => 'Godfather 3 : Michael Corleone', :rating => 'PG-13',
         :release_date => '13-Sep-2003'},
     {:title => 'Interstellar', :rating => 'PG-13',
         :release_date => '13-Aug-2016'}
